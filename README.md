@@ -11,7 +11,7 @@ Update and extend the enum so that it contains three new access flags:<br/>
 <h3>2. Song </h3>
 
 A playlist is considered a repeating playlist if any of the songs contain a reference to a previous song in the playlist. Otherwise, the playlist will end with the last song which points to null. <br/>
-Implement a function IsRepeatingPlaylist that, efficiently with respect to time used, returns true if a playlist is repeating or false if it is not. <br/>
+Implement a function IsRepeatingPlaylist that, efficiently with respect to time used, returns true if a playlist is repeating or false if it is not. <br/><br/>
 
 For example, the following code prints "True" as both songs point to each other.<br/>
 
@@ -25,11 +25,15 @@ Console.WriteLine(first.IsRepeatingPlaylist());<br/>
 <br/><br/>
 [Solution-Song.cs](https://github.com/mengyi1028/csharp/new/main)
 
-<h3>3.AlertService </h3>
-Refactor the AlertService and AlertDAO classes:<br/>
+<h3>3. AlertService </h3>
+Refactor the AlertService and AlertDAO classes:<br/><br/>
 Create a new interface, named IAlertDAO, that contains the same methods as AlertDAO.<br/>
 AlertDAO should implement the IAlertDAO interface.<br/>
 AlertService should have a constructor that accepts IAlertDAO.<br/>
 The RaiseAlert and GetAlertTime methods should use the object passed through the constructor.<br/><br/>
 
 [Solution-AlertService.cs](https://github.com/mengyi1028/csharp/blob/main/AlertService)
+<h3>4. Merge Name </h3>
+Implement the UniqueNames method. When passed two arrays of names, it will return an array containing the names that appear in either or both arrays. The returned array should have no duplicates. <br/><br/>
+For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) should return an array containing Ava, Emma, Olivia, and Sophia in any order.
+[Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/new/main)
