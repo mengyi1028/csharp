@@ -24,3 +24,12 @@ second.NextSong = first;<br/>
 Console.WriteLine(first.IsRepeatingPlaylist());<br/>
 <br/><br/>
 [Solution-Song.cs](https://github.com/mengyi1028/csharp/new/main)
+
+<h3>3.AlertService </h3>
+Refactor the AlertService and AlertDAO classes:<br/>
+Create a new interface, named IAlertDAO, that contains the same methods as AlertDAO.<br/>
+AlertDAO should implement the IAlertDAO interface.<br/>
+AlertService should have a constructor that accepts IAlertDAO.<br/>
+The RaiseAlert and GetAlertTime methods should use the object passed through the constructor.<br/><br/>
+
+[Solution-AlertService.cs](https://github.com/mengyi1028/csharp/blob/main/AlertService)
