@@ -7,3 +7,21 @@ Update and extend the enum so that it contains three new access flags:<br/>
 (3) An Owner access that is made up of the Writer and Editor flags.<br/><br/>
 
 [Solution-Account.cs](https://github.com/mengyi1028/csharp/blob/main/Account.cs) 
+<br/>
+<h3>2. Song </h3>
+
+A playlist is considered a repeating playlist if any of the songs contain a reference to a previous song in the playlist. Otherwise, the playlist will end with the last song which points to null. <br/>
+<br/>
+Implement a function IsRepeatingPlaylist that, efficiently with respect to time used, returns true if a playlist is repeating or false if it is not. <br/><br/>
+
+For example, the following code prints "True" as both songs point to each other.<br/>
+
+Song first = new Song("Hello");
+Song second = new Song("Eye of the tiger");
+    
+first.NextSong = second;
+second.NextSong = first;
+
+Console.WriteLine(first.IsRepeatingPlaylist());
+<br/>
+[Solution-Song.cs](https://github.com/mengyi1028/csharp/new/main)
