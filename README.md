@@ -23,7 +23,7 @@ second.NextSong = first;<br/>
 
 Console.WriteLine(first.IsRepeatingPlaylist());<br/>
 <br/><br/>
-[Solution-Song.cs](https://github.com/mengyi1028/csharp/new/main)
+[Solution-Song.cs](https://github.com/mengyi1028/csharp/new/main/Song.cs)
 
 <h3>3. AlertService </h3>
 Refactor the AlertService and AlertDAO classes:<br/><br/>
@@ -38,4 +38,4 @@ Implement the UniqueNames method. When passed two arrays of names, it will retur
 For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) should return an array containing Ava, Emma, Olivia, and Sophia in any order.<br/>
 <br/>
 
-[Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/new/main)
+[Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/new/main/mergename)
