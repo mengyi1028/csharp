@@ -67,3 +67,9 @@ For example, FindTwoSum(new List<int>() { 3, 1, 5, 7, 5, 9 }, 10) should return 
         <li>2 and 4 (or 4 and 2) as 5 + 5 = 10</li>
     </ul>
 [Solution-TwoSum.cs](https://github.com/mengyi1028/csharp/blob/main/TwoSum.cs)
+
+<h3>7. Quadratic Equation</h3>
+Implement the FindRoots function to find the roots of the quadratic equation: ax2 + bx + c = 0. If the equation has only one solution, the function should return that solution as both elements of the tuple. The equation will always have at least one solution.<br/><br/>
+
+For example, the roots of the equation 2x2 + 10x + 8 = 0 are -1 and -4.
+[Solution-QuadraticEquation.cs](https://github.com/mengyi1028/csharp/blob/main/QuadraticEquation.cs)
