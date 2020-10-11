@@ -37,6 +37,7 @@ The RaiseAlert and GetAlertTime methods should use the object passed through the
 Implement the UniqueNames method. When passed two arrays of names, it will return an array containing the names that appear in either or both arrays. The returned array should have no duplicates. <br/><br/>
 For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) should return an array containing Ava, Emma, Olivia, and Sophia in any order.
 <br/>
+<br/>
 
 [Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/blob/main/MergeNames)
 
@@ -52,8 +53,7 @@ Implement the class NumericInput that:<br/>
 <ul>
     <li>Inherits TextInput</li>
     <li>Overrides the Add method so that each non-numeric character is ignored</li>
-    </ul>
-    <br/>
+    </ul>   
 
 [Solution-UserInput.cs](https://github.com/mengyi1028/csharp/blob/main/UserInput.cs)
 
