@@ -40,7 +40,7 @@ For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'
 
 [Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/blob/main/MergeNames)
 
-<h3>5. User Input<h3/>
+<h3>5. User Input</h3>
  User interface contains two types of user input controls: TextInput, which accepts all characters and NumericInput, which accepts only digits.<br/>
 
 Implement the class TextInput that contains:<br/>
