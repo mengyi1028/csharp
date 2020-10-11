@@ -4,7 +4,7 @@ public class TextInput
 {
     public string value;
     
-    // virtual
+    // Declared virtual so it can be overridden.
     public virtual void Add(char c)
     {
         value +=c;
