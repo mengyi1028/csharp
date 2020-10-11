@@ -39,3 +39,20 @@ For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'
 <br/>
 
 [Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/blob/main/MergeNames)
+
+<h3>5. User Input<h3/>
+ User interface contains two types of user input controls: TextInput, which accepts all characters and NumericInput, which accepts only digits.<br/>
+
+Implement the class TextInput that contains:<br/>
+    <ul>
+    <li>Public method void Add(char c) - adds the given character to the current value</li>
+    <li>Public method string GetValue() - returns the current value</li>
+    </ul>
+Implement the class NumericInput that:<br/>
+<ul>
+    <li>Inherits TextInput</li>
+    <li>Overrides the Add method so that each non-numeric character is ignored</li>
+    </ul>
+    <br/>
+
+[Solution-UserInput.cs](https://github.com/mengyi1028/csharp/blob/main/UserInput.cs)
