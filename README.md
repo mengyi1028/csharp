@@ -35,7 +35,7 @@ The RaiseAlert and GetAlertTime methods should use the object passed through the
 [Solution-AlertService.cs](https://github.com/mengyi1028/csharp/blob/main/AlertService)
 <h3>4. Merge Name </h3>
 Implement the UniqueNames method. When passed two arrays of names, it will return an array containing the names that appear in either or both arrays. The returned array should have no duplicates. <br/><br/>
-For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) should return an array containing Ava, Emma, Olivia, and Sophia in any order.<br/>
+For example, calling MergeNames.UniqueNames(new string[]{'Ava', 'Emma', 'Olivia'}, new string[]{'Olivia', 'Sophia', 'Emma'}) should return an array containing Ava, Emma, Olivia, and Sophia in any order.
 <br/>
 
 [Solution-MergeNames.cs](https://github.com/mengyi1028/csharp/blob/main/MergeNames)
@@ -71,5 +71,5 @@ For example, FindTwoSum(new List<int>() { 3, 1, 5, 7, 5, 9 }, 10) should return 
 <h3>7. Quadratic Equation</h3>
 Implement the FindRoots function to find the roots of the quadratic equation: ax2 + bx + c = 0. If the equation has only one solution, the function should return that solution as both elements of the tuple. The equation will always have at least one solution.<br/><br/>
 
-For example, the roots of the equation 2x2 + 10x + 8 = 0 are -1 and -4.
+For example, the roots of the equation 2x2 + 10x + 8 = 0 are -1 and -4.<br/><br/>
 [Solution-QuadraticEquation.cs](https://github.com/mengyi1028/csharp/blob/main/QuadraticEquation.cs)
