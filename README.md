@@ -73,3 +73,16 @@ Implement the FindRoots function to find the roots of the quadratic equation: ax
 
 For example, the roots of the equation 2x2 + 10x + 8 = 0 are -1 and -4.<br/><br/>
 [Solution-QuadraticEquation.cs](https://github.com/mengyi1028/csharp/blob/main/QuadraticEquation.cs)
+
+<h3>8. Binary Search Tree</h3>
+Binary search tree (BST) is a binary tree where the value of each node is larger or equal to the values in all the nodes in that node's left subtree and is smaller than the values in all the nodes in that node's right subtree.<br/>
+Write a function that, efficiently with respect to time used, checks if a given binary search tree contains a given value.<br/>
+For example, for the following tree:
+    <ul>
+    <li>n1 (Value: 1, Left: null, Right: null)</li>
+    <li>n2 (Value: 2, Left: n1, Right: n3)</li>
+    <li>n3 (Value: 3, Left: null, Right: null)</li>
+    </ul>
+    Call to Contains(n2, 3) should return true since a tree with root at n2 contains number 3.
+<br/>
+[Solution-BinarySearchTree](https://github.com/mengyi1028/csharp/blob/main/BinarySearchTree.cs)
