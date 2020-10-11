@@ -83,6 +83,6 @@ For example, for the following tree:
     <li>n2 (Value: 2, Left: n1, Right: n3)</li>
     <li>n3 (Value: 3, Left: null, Right: null)</li>
     </ul>
-    Call to Contains(n2, 3) should return true since a tree with root at n2 contains number 3.<br/>
+    Call to Contains(n2, 3) should return true since a tree with root at n2 contains number 3.<br/><br/>
 
 [Solution-BinarySearchTree](https://github.com/mengyi1028/csharp/blob/main/BinarySearchTree.cs)
